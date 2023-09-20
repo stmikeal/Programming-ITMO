@@ -1,0 +1,51 @@
+import static java.lang.Math.*;
+
+public class Lab1{
+	public static void main(String[] args){
+		short[] d = task1();
+		double[] x = task2();
+		task3(d,x);
+	}
+	
+	public static short[] task1(){
+		short[] d = new short[11];  // task 1
+		int f = 0;
+		for (short i=22;i>=2;i-=2) {
+			d[f] = i;
+			f++;
+		}
+		return d;
+	}
+	
+	public static double[] task2(){
+		double[] x = new double[10]; // task 2
+		for (int i=0;i<10;i++)
+			x[i] = random()*16.0 - 12.0;
+		return  x;
+	}
+	
+	public static void task3(short[] d, double[] x){
+		
+		double[][] square = new double[11][10]; // task 3
+		for (int i=0;i<11;i++){
+			for (int j=0;j<10;j++){
+				if (d[i]==16){
+					square[i][j] = atan(exp(cbrt(-pow((abs(x[j])+1)/2.0,x[j]))));
+				} else if ((d[i]==4)||(d[i]==8)||(d[i]==14)||(d[i]==22)||(d[i]==2)){
+					square[i][j] = log(pow(((5*abs(x[j]))/(abs(x[j])+1)),2*x[j]));
+				} else {
+					square[i][j] = pow(pow(exp(pow((1 + 1/x[j]), x[j])),3),(log(exp(pow(tan(x[j]),2))))/3 + 1);
+				}
+			}
+		}
+		
+		for (int i=0;i<11;i++){  //print
+			for (int j=0;j<10;j++){
+				System.out.printf("%.2f", (float)square[i][j]);
+				System.out.print("; ");
+			}
+			System.out.print("\n");
+		}
+	}
+		
+}

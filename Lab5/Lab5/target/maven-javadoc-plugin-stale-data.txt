@@ -1,0 +1,78 @@
+/usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/mike/Рабочий стол/data/programm/Lab5/Lab5/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Lab5 1.0 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Lab5 1.0 API'
+command
+command
+command
+command
+command
+command
+command
+command
+command
+command
+command
+command
+command
+command
+command
+command
+exception
+tools
+tools
+tools
+tools
+tools
+window
+element
+element
+element
+element
+element
+element
+element
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/src/main/java/data = 1616440094470
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/src/main/java = 1616416286491
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/stylesheet.css = 1616621584977
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/deprecated-list.html = 1616621584953
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/constant-values.html = 1616621584597
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/serialized-form.html = 1616621584609
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/member-search-index.js = 1616621584913
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/element-list = 1616621584541
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/index-all.html = 1616621584917
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/member-search-index.zip = 1616621584913
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/overview-summary.html = 1616621584965
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/allclasses-index.html = 1616621584937
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/type-search-index.js = 1616621584909
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/overview-tree.html = 1616621584817
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/package-search-index.zip = 1616621584909
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/search.js = 1616621584981
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/help-doc.html = 1616621584973
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/allpackages-index.html = 1616621584941
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/allclasses.html = 1616621584957
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/script.js = 1616621584977
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/index.html = 1616621584965
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/package-search-index.js = 1616621584897
+/home/mike/Рабочий стол/data/programm/Lab5/Lab5/target/site/apidocs/type-search-index.zip = 1616621584913
